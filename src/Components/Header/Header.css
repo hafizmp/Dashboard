@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav{
+
+    display: flex;
+    grid-template-columns: 10rem 1fr 2fr;
+    margin: 25px;
+}
+.mane-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 36px;
+    gap: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+.mane-text span{
+    color: red;
+}
+
+.menu-btn{
+    display: flex;
+    gap: 33px;
+    margin-left: 107px;
+}
+.menu-btn button{
+    width: 82px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font-family: ui-sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 42px;
+
+}
+.menu-btn input{
+    text-indent: 20px;
+    color: black;
+    border-radius: 4px;
+}
+
+
+
+/* .hader{
+    display: flex;
+
+}
+.banner{
+    display: flex;
+    margin: 27px;
+}
+
+.togle{
+    width: 20px;
+    height: 30px;
+}
+.mane-heading{
+  margin-left: 30px;
+  
+} 
+.description{
+    margin-top: 16px;
+    margin-left: 9px;
+
+}
+.order-btn{
+    margin-left: 62px;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.bill-input{
+    margin-left: 23px;
+    border-radius: 5px;
+} */
